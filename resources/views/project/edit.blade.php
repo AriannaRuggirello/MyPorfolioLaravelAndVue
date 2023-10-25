@@ -17,10 +17,10 @@
         <div class="col-lg-10 p-md-4 py-4 bg-body-secondary">
             <div class="row">
                 <div class="col">
-                    
+
                 </div>
                 <div class="col"></div>
-                
+
             </div>
             <h3>Modifica il progetto</h3>
             <form method="post" action="{{ route('project.update', $project->id) }}" enctype="multipart/form-data">

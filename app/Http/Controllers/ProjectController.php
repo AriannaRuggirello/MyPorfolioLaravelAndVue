@@ -15,7 +15,7 @@ class ProjectController extends Controller
     {
         $projects = Project::all();
         $technologies = Technology::all();
-        return view('dashboard', compact('projects', 'technologies'));
+        return view('admin.dashboard', compact('projects', 'technologies'));
     }
     // show
     public function show($id)
